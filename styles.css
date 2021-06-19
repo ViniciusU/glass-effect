@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #303030;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.background-img img{
+    position: absolute;
+    width: 1054.57px;
+    height: 768.58px;
+    left: 0px;
+    top: 0px;
+
+    border: 1px white;
+}
+
+
+.background-img2 img{
+    position: absolute;
+    width: 651px;
+    height: 437px;
+    left:0;
+    top: 300.4px;
+    
+
+}
+
+.card{
+
+    position: absolute;
+    backdrop-filter: blur(45px);
+    border-radius: 59px;
+    background: rgba(65, 65, 65, 0.15);
+   
+
+    
+    width: 500px;
+    height: 300px;
+    left: 251.87px;
+    top: 210px;
+    transform: rotate(-13.38deg);
+    
+    
+}
+
+.card.card-2{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 1090px;
+    top: 400px;
+    transform: matrix(0.64, -0.54, 1.22, 0.52, 0, 0);
+
+}
+
+
+.container-card{
+    position: relative;
+    display: flex;
+    padding: 35px;
+    height: 100%;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex-direction: column;
+   
+}
+.container-card::before{
+    position: absolute;
+    content:'';
+    border: 1px solid rgba(255, 255, 255, 0.15) ;
+    border-right:none;
+    height: 100%;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 59px 0 0 59px;
+
+}
+.container-card::after{
+    position: absolute;
+    content:'';
+    border: 1px solid rgba(135, 38, 183, 0.5);
+    border-left: none;
+    height: 100%;
+    width: 50%;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+    border-radius: 0 59px 59px 0;
+
+}
+
+.card h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 15px;
+
+    color: rgba(255, 255, 255, 0.66);
+
+}
+
+.card p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    color: rgba(255, 255, 255);
+}
+
+
